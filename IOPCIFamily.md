@@ -54,3 +54,5 @@ sudo kmutil install --volume-root ~/livemount --update-all
 sudo bless --folder ~/livemount/System/Library/CoreServices --bootefi --create-snapshot
 ```
 Then reboot the laptop.
+
+Finally you can uncomment the `DeviceProperties` on config.plist.

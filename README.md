@@ -25,7 +25,7 @@ Currently not all functions and components work properly ( especially trackpad )
 ### Working
 - CPU with 8 cores and 16 threads enabled
   - CPU power management with [AMD Power Gadget](https://github.com/trulyspinach/SMCAMDProcessor) and [RyzenAdj](https://gist.github.com/b00t0x/c2b940a4a7a05c7169b54aa0a1be8cd3)
-  - `ryzenadj` command [attached](ryzenadj) to this repo.
+  - `ryzenadj` command is [attached](ryzenadj) to this repo.
 - dGPU acceleration
   - 120Hz LCD
     - HiDPI custom resolution with [one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
@@ -48,15 +48,15 @@ Currently not all functions and components work properly ( especially trackpad )
 - Hardware video decode / encode acceleration
   - VideoProc says no acceleration at all.
 - Hardware LCD backlight brightness control
-  - Only software control by modded [MonitorControl](https://github.com/MonitorControl) app.
+  - Only software control by modded [MonitorControl](https://github.com/MonitorControl/MonitorControl) app.
   - Modified version is attached [here](https://github.com/b00t0x/ROG-Zephyrus-G14-GA402-Hackintosh/files/9032689/MonitorControl_mod.zip).
 - Keyboard backlight brightness control
   - Always on
 - Keyboard Fn hotkeys
   - Only sound hotkeys work
 - macOS Ventura beta
-  - Stuck at `ACPI: sleep states` even if OpenCore nightly using.
-- vanilla IOPCIFamily.kext / AppleACPIPlatform.kext
+  - Stuck at `ACPI: sleep states` even if using OpenCore nightly.
+- Vanilla IOPCIFamily.kext / AppleACPIPlatform.kext
   - Must be replaced with Big Sur's one.
   - Without replacing, PCIe gen mixed SSD / WiFi not working.
 - Longer battery life
