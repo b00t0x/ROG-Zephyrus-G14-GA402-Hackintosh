@@ -14,6 +14,7 @@ Currently not all functions and components work properly ( especially trackpad )
   - no way to make it work
 - dGPU : AMD Radeon RX 6700S 8 GB
   - It is named 6700, but it has same Navi 23 chip as the desktop 6600 series.
+  - Must be set primary by MUX switch setting with  Armoury Crate app on Windows.
 - Memory : DDR5-4800MHz 16 GB ( 8 GB onboard + 8 GB SO-DIMM )
 - WiFi : Intel AX210 WiFi 6 ( replaced from original MediaTek M.2 2230 card )
 
