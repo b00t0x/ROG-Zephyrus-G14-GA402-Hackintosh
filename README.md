@@ -48,8 +48,7 @@ Currently not all functions and components work properly ( especially trackpad )
 - Hardware video decode / encode acceleration
   - VideoProc says no acceleration at all.
 - Hardware LCD backlight brightness control
-  - Only software control by modded [MonitorControl](https://github.com/MonitorControl/MonitorControl) app.
-  - Modified version is attached [here](https://github.com/b00t0x/ROG-Zephyrus-G14-GA402-Hackintosh/files/9032689/MonitorControl_mod.zip).
+  - Only software control available with [MonitorControlLite](https://github.com/MonitorControl/MonitorControlLite).
 - Keyboard backlight brightness control
   - Always on
 - Keyboard Fn hotkeys
@@ -111,10 +110,3 @@ These properties are commented out because of not working before replacing IOPCI
 `MacPro7,1` smbios is required to enable internal display. ( `iMacPro1,1` doesn't work ) I don't know why.
 
 You should set your own `MLB` / `ROM` / `SystemSerialNumber` / `SystemUUID` .
-
-### Brightness control
-Currently hardware brightness control can't be enabled, so I'm using software gamma control by [MonitorControl](https://github.com/MonitorControl) app.
-
-But MonitorControl assumes internal display should be hardware controlled, so I have to [patch](MonitorControl.diff) the app to disable internal display detection to the display is recognized as external.
-
-Modified app can be download from [here](https://github.com/b00t0x/ROG-Zephyrus-G14-GA402-Hackintosh/files/9032689/MonitorControl_mod.zip).
