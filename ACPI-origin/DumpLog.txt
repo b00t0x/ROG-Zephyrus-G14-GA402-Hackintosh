@@ -1,0 +1,232 @@
+11:433  3:753  Found BIOS RSDP at %p
+11:433  0:000  Printing ACPI tables from RSDP %p ...
+11:433  0:000   %p: 'RSD PTR øALASKAî#π$', Rev: -1161011065 (Acpi 2.0 or newer), Len: 36
+11:433  0:000    (Xsdt: %p, Rsdt: %p)
+11:433  0:000    %p: 'XSDT\', 'XSDT', Rev: -1161011273, Len: 1
+11:433  0:000    %p: 'RSDT¿', 'RSDT', Rev: -1161011273, Len: 1
+11:433  0:000    Tables in Xsdt: 39
+11:433  0:000    0. %p: 'FACP', 'FACP', Rev: -1161011273, Len: 6
+11:433  0:000        (Dsdt: B3F32000, Facs: B91FA000, XDsdt: b3f32000, XFacs: 0)
+11:433  0:000        %p: 'DSDT»', 'DSDT', Rev: -1161011433, Len: 2
+11:434  0:000        %p: 'FACS@', Ver: -1161011237, Len: 2
+11:434  0:000    1. %p: 'MSDMU', 'MSDM', Rev: -1161011273, Len: 3
+11:434  0:000    2. %p: 'SSDTs', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    3. %p: 'SSDTÃ', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    4. %p: 'SSDTÌ}', 'SSDT', Rev: -1161011273, Len: 2
+11:434  0:000    5. %p: 'IVRS§', 'IVRS', Rev: -1161011273, Len: 2
+11:434  0:000    6. %p: 'FIDTú', 'FIDT', Rev: -1161011273, Len: 1
+11:434  0:000    7. %p: 'ECDT¡', 'ECDT', Rev: -1161011273, Len: 1
+11:434  0:000    8. %p: 'MCFG<', 'MCFG', Rev: -1161011273, Len: 1
+11:434  0:000    9. %p: 'HPET8', 'HPET', Rev: -1161011273, Len: 1
+11:434  0:000    10. %p: 'SSDTTS', 'SSDT', Rev: -1161011273, Len: 2
+11:434  0:000    11. %p: 'CRATË', 'CRAT', Rev: -1161011273, Len: 1
+11:434  0:000    12. %p: 'CDIT)', 'CDIT', Rev: -1161011273, Len: 1
+11:434  0:000    13. %p: 'VFCT†\', 'VFCT', Rev: -1161011273, Len: 1
+11:434  0:000    14. %p: 'BGRT8', 'BGRT', Rev: -1161011273, Len: 1
+11:434  0:000    15. %p: 'TPM2L', 'TPM2', Rev: -1161011273, Len: 4
+11:434  0:000    16. %p: 'SSDT>', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    17. %p: 'SSDT	', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    18. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    19. %p: 'SSDTã', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    20. %p: 'SSDT–	', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    21. %p: 'SSDTÃ ', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    22. %p: 'SSDT(', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    23. %p: 'SSDTã', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    24. %p: 'SSDTlz', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    25. %p: 'WSMT(', 'WSMT', Rev: -1161011273, Len: 1
+11:434  0:000    26. %p: 'APICﬁ', 'APIC', Rev: -1161011273, Len: 3
+11:434  0:000    27. %p: 'SSDTJ', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    28. %p: 'SSDTV', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    29. %p: 'SSDT≠', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    30. %p: 'SSDTûs', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    31. %p: 'SSDTLI', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    32. %p: 'SSDTﬂ', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    33. %p: 'SSDTç', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    34. %p: 'SSDTø', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    35. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    36. %p: 'SSDTW', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    37. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    38. %p: 'FPDTD', 'FPDT', Rev: -1161011273, Len: 1
+11:434  0:000    Tables in Rsdt: 39
+11:434  0:000    0. %p: 'FACP', 'FACP', Rev: -1161011273, Len: 6
+11:434  0:000        (Dsdt: B3F32000, Facs: B91FA000, XDsdt: b3f32000, XFacs: 0)
+11:434  0:000        %p: 'DSDT»', 'DSDT', Rev: -1161011433, Len: 2
+11:434  0:000        %p: 'FACS@', Ver: -1161011237, Len: 2
+11:434  0:000    1. %p: 'MSDMU', 'MSDM', Rev: -1161011273, Len: 3
+11:434  0:000    2. %p: 'SSDTs', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    3. %p: 'SSDTÃ', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    4. %p: 'SSDTÌ}', 'SSDT', Rev: -1161011273, Len: 2
+11:434  0:000    5. %p: 'IVRS§', 'IVRS', Rev: -1161011273, Len: 2
+11:434  0:000    6. %p: 'FIDTú', 'FIDT', Rev: -1161011273, Len: 1
+11:434  0:000    7. %p: 'ECDT¡', 'ECDT', Rev: -1161011273, Len: 1
+11:434  0:000    8. %p: 'MCFG<', 'MCFG', Rev: -1161011273, Len: 1
+11:434  0:000    9. %p: 'HPET8', 'HPET', Rev: -1161011273, Len: 1
+11:434  0:000    10. %p: 'SSDTTS', 'SSDT', Rev: -1161011273, Len: 2
+11:434  0:000    11. %p: 'CRATË', 'CRAT', Rev: -1161011273, Len: 1
+11:434  0:000    12. %p: 'CDIT)', 'CDIT', Rev: -1161011273, Len: 1
+11:434  0:000    13. %p: 'VFCT†\', 'VFCT', Rev: -1161011273, Len: 1
+11:434  0:000    14. %p: 'BGRT8', 'BGRT', Rev: -1161011273, Len: 1
+11:434  0:000    15. %p: 'TPM2L', 'TPM2', Rev: -1161011273, Len: 4
+11:434  0:000    16. %p: 'SSDT>', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    17. %p: 'SSDT	', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    18. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    19. %p: 'SSDTã', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    20. %p: 'SSDT–	', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    21. %p: 'SSDTÃ ', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    22. %p: 'SSDT(', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    23. %p: 'SSDTã', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    24. %p: 'SSDTlz', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    25. %p: 'WSMT(', 'WSMT', Rev: -1161011273, Len: 1
+11:434  0:000    26. %p: 'APICﬁ', 'APIC', Rev: -1161011273, Len: 3
+11:434  0:000    27. %p: 'SSDTJ', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    28. %p: 'SSDTV', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    29. %p: 'SSDT≠', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    30. %p: 'SSDTûs', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    31. %p: 'SSDTLI', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    32. %p: 'SSDTﬂ', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    33. %p: 'SSDTç', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    34. %p: 'SSDTø', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    35. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    36. %p: 'SSDTW', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    37. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1
+11:434  0:000    38. %p: 'FPDTD', 'FPDT', Rev: -1161011273, Len: 1
+11:434  0:000  Found UEFI Acpi 2.0 RSDP at %p
+11:434  0:000  Saving ACPI tables from RSDP %p to Âçí‚ÅÑÂëê‚Åí‰Üø‰Öå‰≠ì…ÅŒîÎ§£$ ...
+11:434  0:000   %p: 'RSD PTR øALASKAî#π$', Rev: -1161011065 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+11:463  0:028    (Xsdt: %p, Rsdt: %p)
+11:463  0:000    %p: 'XSDT\', 'XSDT', Rev: -1161011273, Len: 1 -> XSDT.aml
+11:490  0:027    %p: 'RSDT¿', 'RSDT', Rev: -1161011273, Len: 1 -> RSDT.aml
+11:517  0:027    Tables in Xsdt: 39
+11:517  0:000    0. %p: 'FACP', 'FACP', Rev: -1161011273, Len: 6 -> FACP.aml
+11:544  0:026        (Dsdt: B3F32000, Facs: B91FA000, XDsdt: b3f32000, XFacs: 0)
+11:544  0:000        %p: 'DSDT»', 'DSDT', Rev: -1161011433, Len: 2 -> DSDT.aml
+11:575  0:031        %p: 'FACS@', Ver: -1161011237, Len: 2 -> FACS.aml
+11:601  0:025    1. %p: 'MSDMU', 'MSDM', Rev: -1161011273, Len: 3 -> MSDM.aml
+11:627  0:026    2. %p: 'SSDTs', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-0-ACDC.aml
+11:654  0:026    3. %p: 'SSDTÃ', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-1-STD3.aml
+11:681  0:026    4. %p: 'SSDTÌ}', 'SSDT', Rev: -1161011273, Len: 2 -> SSDT-2-AmdTable.aml
+11:708  0:027    5. %p: 'IVRS§', 'IVRS', Rev: -1161011273, Len: 2 -> IVRS.aml
+11:736  0:027    6. %p: 'FIDTú', 'FIDT', Rev: -1161011273, Len: 1 -> FIDT.aml
+11:762  0:025    7. %p: 'ECDT¡', 'ECDT', Rev: -1161011273, Len: 1 -> ECDT.aml
+11:788  0:026    8. %p: 'MCFG<', 'MCFG', Rev: -1161011273, Len: 1 -> MCFG.aml
+11:816  0:027    9. %p: 'HPET8', 'HPET', Rev: -1161011273, Len: 1 -> HPET.aml
+11:843  0:026    10. %p: 'SSDTTS', 'SSDT', Rev: -1161011273, Len: 2 -> SSDT-3-AmdTable.aml
+12:070  0:227    11. %p: 'CRATË', 'CRAT', Rev: -1161011273, Len: 1 -> CRAT.aml
+12:228  0:157    12. %p: 'CDIT)', 'CDIT', Rev: -1161011273, Len: 1 -> CDIT.aml
+12:254  0:026    13. %p: 'VFCT†\', 'VFCT', Rev: -1161011273, Len: 1 -> VFCT.aml
+12:298  0:043    14. %p: 'BGRT8', 'BGRT', Rev: -1161011273, Len: 1 -> BGRT.aml
+12:324  0:026    15. %p: 'TPM2L', 'TPM2', Rev: -1161011273, Len: 4 -> TPM2.aml
+12:350  0:026    16. %p: 'SSDT>', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-4-AmdTable.aml
+12:386  0:036    17. %p: 'SSDT	', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-5-AmdTable.aml
+12:413  0:026    18. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-6-AmdTable.aml
+12:439  0:026    19. %p: 'SSDTã', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-7-AmdTable.aml
+12:465  0:026    20. %p: 'SSDT–	', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-8-AmdTable.aml
+12:492  0:026    21. %p: 'SSDTÃ ', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-9-AmdTable.aml
+12:518  0:025    22. %p: 'SSDT(', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-10-AmdTable.aml
+12:544  0:026    23. %p: 'SSDTã', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-11-AmdTable.aml
+12:820  0:276    24. %p: 'SSDTlz', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-12-AmdTable.aml
+12:972  0:151    25. %p: 'WSMT(', 'WSMT', Rev: -1161011273, Len: 1 -> WSMT.aml
+13:009  0:037    26. %p: 'APICﬁ', 'APIC', Rev: -1161011273, Len: 3 -> APIC.aml
+13:038  0:028    27. %p: 'SSDTJ', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-13-AmdTable.aml
+13:067  0:029    28. %p: 'SSDTV', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-14-AmdTable.aml
+13:095  0:027    29. %p: 'SSDT≠', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-15-AmdTable.aml
+13:120  0:025    30. %p: 'SSDTûs', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-16-AmdTable.aml
+13:154  0:033    31. %p: 'SSDTLI', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-17-AmdTable.aml
+13:184  0:029    32. %p: 'SSDTﬂ', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-18-AmdTable.aml
+13:210  0:026    33. %p: 'SSDTç', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-19-AmdTable.aml
+13:236  0:026    34. %p: 'SSDTø', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-20-AmdTable.aml
+13:262  0:025    35. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-21-AmdTable.aml
+13:288  0:026    36. %p: 'SSDTW', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-22-AmdTable.aml
+13:514  0:225    37. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1 -> SSDT-23-AmdTable.aml
+13:684  0:169    38. %p: 'FPDTD', 'FPDT', Rev: -1161011273, Len: 1 -> FPDT.aml
+13:710  0:026    Tables in Rsdt: 39
+13:710  0:000    0. %p: 'FACP', 'FACP', Rev: -1161011273, Len: 6
+13:710  0:000        (Dsdt: B3F32000, Facs: B91FA000, XDsdt: b3f32000, XFacs: 0)
+13:710  0:000        %p: 'DSDT»', 'DSDT', Rev: -1161011433, Len: 2
+13:710  0:000        %p: 'FACS@', Ver: -1161011237, Len: 2
+13:710  0:000    1. %p: 'MSDMU', 'MSDM', Rev: -1161011273, Len: 3
+13:710  0:000    2. %p: 'SSDTs', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    3. %p: 'SSDTÃ', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    4. %p: 'SSDTÌ}', 'SSDT', Rev: -1161011273, Len: 2
+13:710  0:000    5. %p: 'IVRS§', 'IVRS', Rev: -1161011273, Len: 2
+13:710  0:000    6. %p: 'FIDTú', 'FIDT', Rev: -1161011273, Len: 1
+13:710  0:000    7. %p: 'ECDT¡', 'ECDT', Rev: -1161011273, Len: 1
+13:710  0:000    8. %p: 'MCFG<', 'MCFG', Rev: -1161011273, Len: 1
+13:710  0:000    9. %p: 'HPET8', 'HPET', Rev: -1161011273, Len: 1
+13:710  0:000    10. %p: 'SSDTTS', 'SSDT', Rev: -1161011273, Len: 2
+13:710  0:000    11. %p: 'CRATË', 'CRAT', Rev: -1161011273, Len: 1
+13:710  0:000    12. %p: 'CDIT)', 'CDIT', Rev: -1161011273, Len: 1
+13:710  0:000    13. %p: 'VFCT†\', 'VFCT', Rev: -1161011273, Len: 1
+13:710  0:000    14. %p: 'BGRT8', 'BGRT', Rev: -1161011273, Len: 1
+13:710  0:000    15. %p: 'TPM2L', 'TPM2', Rev: -1161011273, Len: 4
+13:710  0:000    16. %p: 'SSDT>', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    17. %p: 'SSDT	', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    18. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    19. %p: 'SSDTã', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    20. %p: 'SSDT–	', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    21. %p: 'SSDTÃ ', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    22. %p: 'SSDT(', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    23. %p: 'SSDTã', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    24. %p: 'SSDTlz', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    25. %p: 'WSMT(', 'WSMT', Rev: -1161011273, Len: 1
+13:710  0:000    26. %p: 'APICﬁ', 'APIC', Rev: -1161011273, Len: 3
+13:710  0:000    27. %p: 'SSDTJ', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    28. %p: 'SSDTV', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    29. %p: 'SSDT≠', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    30. %p: 'SSDTûs', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    31. %p: 'SSDTLI', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    32. %p: 'SSDTﬂ', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    33. %p: 'SSDTç', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    34. %p: 'SSDTø', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    35. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    36. %p: 'SSDTW', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    37. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1
+13:710  0:000    38. %p: 'FPDTD', 'FPDT', Rev: -1161011273, Len: 1
+13:710  0:000  Found UEFI Acpi 1.0 RSDP at %p
+13:710  0:000  Printing ACPI tables from RSDP %p ...
+13:710  0:000   %p: 'RSD PTR XALASKA', Rev: -1161011065 (Acpi 1.0), Len: 20
+13:710  0:000    (Rsdt: %p)
+13:710  0:000    %p: 'RSDT¿', 'RSDT', Rev: -1161011273, Len: 1
+13:710  0:000    Tables in Rsdt: 39
+13:710  0:000    0. %p: 'FACP', 'FACP', Rev: -1161011273, Len: 6
+13:710  0:000        (Dsdt: B3F32000, Facs: B91FA000, XDsdt: b3f32000, XFacs: 0)
+13:710  0:000        %p: 'DSDT»', 'DSDT', Rev: -1161011433, Len: 2
+13:711  0:000        %p: 'FACS@', Ver: -1161011237, Len: 2
+13:711  0:000    1. %p: 'MSDMU', 'MSDM', Rev: -1161011273, Len: 3
+13:711  0:000    2. %p: 'SSDTs', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    3. %p: 'SSDTÃ', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    4. %p: 'SSDTÌ}', 'SSDT', Rev: -1161011273, Len: 2
+13:711  0:000    5. %p: 'IVRS§', 'IVRS', Rev: -1161011273, Len: 2
+13:711  0:000    6. %p: 'FIDTú', 'FIDT', Rev: -1161011273, Len: 1
+13:711  0:000    7. %p: 'ECDT¡', 'ECDT', Rev: -1161011273, Len: 1
+13:711  0:000    8. %p: 'MCFG<', 'MCFG', Rev: -1161011273, Len: 1
+13:711  0:000    9. %p: 'HPET8', 'HPET', Rev: -1161011273, Len: 1
+13:711  0:000    10. %p: 'SSDTTS', 'SSDT', Rev: -1161011273, Len: 2
+13:711  0:000    11. %p: 'CRATË', 'CRAT', Rev: -1161011273, Len: 1
+13:711  0:000    12. %p: 'CDIT)', 'CDIT', Rev: -1161011273, Len: 1
+13:711  0:000    13. %p: 'VFCT†\', 'VFCT', Rev: -1161011273, Len: 1
+13:711  0:000    14. %p: 'BGRT8', 'BGRT', Rev: -1161011273, Len: 1
+13:711  0:000    15. %p: 'TPM2L', 'TPM2', Rev: -1161011273, Len: 4
+13:711  0:000    16. %p: 'SSDT>', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    17. %p: 'SSDT	', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    18. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    19. %p: 'SSDTã', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    20. %p: 'SSDT–	', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    21. %p: 'SSDTÃ ', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    22. %p: 'SSDT(', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    23. %p: 'SSDTã', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    24. %p: 'SSDTlz', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    25. %p: 'WSMT(', 'WSMT', Rev: -1161011273, Len: 1
+13:711  0:000    26. %p: 'APICﬁ', 'APIC', Rev: -1161011273, Len: 3
+13:711  0:000    27. %p: 'SSDTJ', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    28. %p: 'SSDTV', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    29. %p: 'SSDT≠', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    30. %p: 'SSDTûs', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    31. %p: 'SSDTLI', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    32. %p: 'SSDTﬂ', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    33. %p: 'SSDTç', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    34. %p: 'SSDTø', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    35. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    36. %p: 'SSDTW', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    37. %p: 'SSDT', 'SSDT', Rev: -1161011273, Len: 1
+13:711  0:000    38. %p: 'FPDTD', 'FPDT', Rev: -1161011273, Len: 1

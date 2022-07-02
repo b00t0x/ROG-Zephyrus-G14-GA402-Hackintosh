@@ -1,0 +1,12 @@
+diff --git a/MonitorControl/Support/DisplayManager.swift b/MonitorControl/Support/DisplayManager.swift
+index 832258d..29e53e7 100644
+--- a/MonitorControl/Support/DisplayManager.swift
++++ b/MonitorControl/Support/DisplayManager.swift
+@@ -474,6 +474,7 @@ class DisplayManager {
+   }
+ 
+   static func isAppleDisplay(displayID: CGDirectDisplayID) -> Bool {
++	return false;
+     var brightness: Float = -1
+     let ret = DisplayServicesGetBrightness(displayID, &brightness)
+     if ret == 0, brightness >= 0 { // If brightness read appears to be successful using DisplayServices then it should be an Apple display
