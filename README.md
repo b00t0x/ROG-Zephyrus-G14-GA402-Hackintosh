@@ -73,7 +73,7 @@ Deleting original APIC.aml also required.
 #### DevirtualiseMmio / MmioWhitelist
 In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is required to avoid stuck on `[EB|#LOG:EXITBS:START]`. MmioWhitelist is also required to avoid blackout issue.
 
-### dGPU DeviceProperties
+#### dGPU DeviceProperties
 These properties are commented out because of not working before replacing IOPCIFamily.kext. To enable this, read [IOPCIFamily.md](IOPCIFamily.md).
 
 - `device-id` : `FF730000`
