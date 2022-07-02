@@ -1,7 +1,7 @@
 # ROG Zephyrus G14 (GA402) Hackintosh [WIP]
 Hackintosh for ASUS ROG Zephyrus G14 (GA402) 2022.
 
-<img width="1367" alt="Screen Shot 2022-07-02 at 2 13 00" src="https://user-images.githubusercontent.com/2325377/176945472-71390d21-e3cc-4382-b539-67a288fc7dee.png">
+<img width="1813" alt="Screen Shot 2022-07-02 at 15 50 09" src="https://user-images.githubusercontent.com/2325377/176993855-832f4ff0-b2c8-41f3-88fc-7c35c2f7bd3b.png">
 
 Currently not all functions and components work properly ( especially trackpad ), but many important components like CPU and GPU working.
 
@@ -49,6 +49,7 @@ Currently not all functions and components work properly ( especially trackpad )
   - VideoProc says no acceleration at all.
 - Hardware LCD backlight brightness control
   - Only software control by modded [MonitorControl](https://github.com/MonitorControl) app.
+  - Modified version is attached [here](https://github.com/b00t0x/ROG-Zephyrus-G14-GA402-Hackintosh/files/9032689/MonitorControl_mod.zip).
 - Keyboard backlight brightness control
   - Always on
 - Keyboard Fn hotkeys
@@ -115,3 +116,5 @@ You should set your own `MLB` / `ROM` / `SystemSerialNumber` / `SystemUUID` .
 Currently hardware brightness control can't be enabled, so I'm using software gamma control by [MonitorControl](https://github.com/MonitorControl) app.
 
 But MonitorControl assumes internal display should be hardware controlled, so I have to [patch](MonitorControl.diff) the app to disable internal display detection to the display is recognized as external.
+
+Modified app can be download from [here](https://github.com/b00t0x/ROG-Zephyrus-G14-GA402-Hackintosh/files/9032689/MonitorControl_mod.zip).
