@@ -37,6 +37,7 @@ Currently not all functions and components work properly ( especially trackpad )
 - Keyboard
 - Internal speaker
   - Sound quality is too bad
+- Battery status
 - Integrated camera
 
 ### Not working / Problems
