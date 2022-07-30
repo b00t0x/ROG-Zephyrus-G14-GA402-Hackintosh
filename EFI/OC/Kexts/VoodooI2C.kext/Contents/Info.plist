@@ -457,6 +457,7 @@
 				<string>INT33C3</string>
 				<string>INT3432</string>
 				<string>INT3433</string>
+				<string>AMDI0010</string>
 			</array>
 			<key>IOProbeScore</key>
 			<integer>9999</integer>
