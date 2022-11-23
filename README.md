@@ -19,8 +19,8 @@ Currently not all functions and components work properly ( especially trackpad )
 - WiFi : Intel AX210 WiFi 6 ( replaced from original MediaTek M.2 2230 card )
 
 ### Software
-- macOS Monterey 12.4 (21F79)
-- OpenCore 0.8.1
+- macOS Monterey 12.6.1 (21G217)
+- OpenCore 0.8.3
 
 ## Current status
 ### Working
@@ -41,6 +41,9 @@ Currently not all functions and components work properly ( especially trackpad )
 - Integrated camera
 
 ### Not working / Problems
+- BIOS version 315
+  - The system became very unstable after updating to BIOS 315, I have to stay on BIOS 312.
+  - The `length` of APIC.aml patch changed.
 - Radeon 680 iGPU
   - Probably never works, that's why I bought the laptop with dGPU.
   - Left USB-C DP alt doesn't work because of it's controlled by iGPU.
@@ -57,9 +60,7 @@ Currently not all functions and components work properly ( especially trackpad )
   - Only sound hotkeys work
 - macOS Ventura beta
   - Stuck at `ACPI: sleep states` even if using OpenCore nightly.
-- Vanilla IOPCIFamily.kext / AppleACPIPlatform.kext
-  - Must be replaced with Big Sur's one.
-  - Without replacing, PCIe gen mixed SSD / WiFi not working.
+  - Installer works, but first boot after install fails.
 - Longer battery life
   - Even in dGPU mode, Windows should run for 3 hours but it only runs for around an hour and a half in macOS.
   - In iGPU mode, Windows should run for 10 hours, but iGPU doesn't work in macOS.
@@ -75,7 +76,6 @@ Deleting original APIC.aml also required.
 In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is required to avoid stuck on `[EB|#LOG:EXITBS:START]`. MmioWhitelist is also required to avoid blackout issue.
 
 #### dGPU DeviceProperties
-These properties are commented out because of not working before replacing IOPCIFamily.kext. To enable this, read [IOPCIFamily.md](IOPCIFamily.md).
 
 - `device-id` : `FF730000`
   - spoofed as RX 6600 series.
