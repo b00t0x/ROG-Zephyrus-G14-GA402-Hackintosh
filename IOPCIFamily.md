@@ -1,4 +1,7 @@
 # Replacing IOPCIFamily.kext
+
+**NOTE : This workaround is no longer required after applying the [probeBusGated patch](https://github.com/AMD-OSX/AMD_Vanilla/compare/f0cf7827578216047325220784a469c77e8e7b98...3be0cb6c4a6651e8dde9026c6de637473eac24d6) ( [d0fce4d](https://github.com/b00t0x/ROG-Zephyrus-G14-GA402-Hackintosh/commit/d0fce4deb7d7cb807e3494c9577be4e505800fbb) ).**
+
 ## Problems
 macOS Monterey has many problems with GA402 because vanilla IOPCIFamily.kext is not working well.
 - Random boot failure
