@@ -20,7 +20,7 @@ Currently not all functions and components work properly ( especially trackpad )
 
 ### Software
 - macOS Monterey 12.6.1 (21G217)
-- OpenCore 0.8.3
+- OpenCore 0.8.7 nightly ([8cdab5b](https://github.com/acidanthera/OpenCorePkg/pull/396))
 
 ## Current status
 ### Working
