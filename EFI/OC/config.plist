@@ -8,14 +8,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>APIC.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>APIC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-CPUR.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -40,22 +32,7 @@
 			</dict>
 		</array>
 		<key>Delete</key>
-		<array>
-			<dict>
-				<key>All</key>
-				<true/>
-				<key>Comment</key>
-				<string>Delete APIC.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>OemTableId</key>
-				<data>QSBNIEkgAAA=</data>
-				<key>TableLength</key>
-				<integer>222</integer>
-				<key>TableSignature</key>
-				<data>QVBJQw==</data>
-			</dict>
-		</array>
+		<array/>
 		<key>Patch</key>
 		<array>
 			<dict>
