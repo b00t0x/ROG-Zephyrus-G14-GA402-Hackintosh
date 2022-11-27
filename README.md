@@ -20,7 +20,7 @@ Currently not all functions and components work properly ( especially trackpad )
 
 ### Software
 - macOS Monterey 12.6.1 (21G217)
-- OpenCore 0.8.3
+- OpenCore 0.8.7 nightly ([8cdab5b](https://github.com/acidanthera/OpenCorePkg/pull/396))
 
 ## Current status
 ### Working
@@ -36,14 +36,12 @@ Currently not all functions and components work properly ( especially trackpad )
 - All USB ports
 - Keyboard
 - Internal speaker
-  - Sound quality is too bad
 - Battery status
 - Integrated camera
 
 ### Not working / Problems
-- BIOS version 315
+- BIOS version 315 or newer
   - The system became very unstable after updating to BIOS 315, I have to stay on BIOS 312.
-  - The `length` of APIC.aml patch changed.
 - Radeon 680 iGPU
   - Probably never works, that's why I bought the laptop with dGPU.
   - Left USB-C DP alt doesn't work because of it's controlled by iGPU.
@@ -58,7 +56,7 @@ Currently not all functions and components work properly ( especially trackpad )
   - Always on
 - Keyboard Fn hotkeys
   - Only sound hotkeys work
-- macOS Ventura beta
+- macOS Ventura
   - Stuck at `ACPI: sleep states` even if using OpenCore nightly.
   - Installer works, but first boot after install fails.
 - Longer battery life
@@ -67,11 +65,6 @@ Currently not all functions and components work properly ( especially trackpad )
 
 ## Configurations
 ### config.plist
-#### APIC.aml
-Modified APIC.aml is required to avoid early reboot. The `Processor ID` in this file has changed from 1 origin to 0 origin. Without this fix, the CPU topology will be corrupted.
-
-Deleting original APIC.aml also required.
-
 #### DevirtualiseMmio / MmioWhitelist
 In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is required to avoid stuck on `[EB|#LOG:EXITBS:START]`. MmioWhitelist is also required to avoid blackout issue.
 
@@ -91,8 +84,6 @@ In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is req
   - to attach `AGPM` to Framebuffer
 - DirectHW.kext
   - required to use `ryzenadj` command. read [this doc](https://gist.github.com/b00t0x/c2b940a4a7a05c7169b54aa0a1be8cd3) for detail.
-- itlwm.kext
-  - due to replacing IOPCIFamily.kext, AirportItlwm not working.
 - RadeonSensor.kext
   - to get dGPU temperature.
 - RestrictEvents.kext / SMCRadeonGPU.kext
