@@ -45,7 +45,7 @@
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>WFMz</data>
                     <key>Limit</key>
@@ -179,7 +179,7 @@
             <dict>
                 <key>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
                 <dict>
-                    <key>@0,name</key>
+                    <key>#@0,name</key>
                     <string>ATY,Henbury</string>
                     <key>agdpmod</key>
                     <string>pikera</string>
@@ -407,7 +407,7 @@
                     <key>Comment</key>
                     <string>V1.6.4 | WhateverGreen.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/WhateverGreen</string>
                     <key>MaxKernel</key>
@@ -1017,7 +1017,7 @@
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Find</key>
                     <data>hNt1S0GLVzg=</data>
                     <key>Identifier</key>
