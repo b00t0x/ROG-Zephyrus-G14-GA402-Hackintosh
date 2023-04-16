@@ -19,8 +19,9 @@ Currently not all functions and components work properly ( especially trackpad )
 - WiFi : Intel AX210 WiFi 6 ( replaced from original MediaTek M.2 2230 card )
 
 ### Software
+- macOS Ventura 13.0.1 (22A400)
 - macOS Monterey 12.6.1 (21G217)
-- OpenCore 0.8.7 nightly ([8cdab5b](https://github.com/acidanthera/OpenCorePkg/pull/396))
+- OpenCore 0.9.1
 
 ## Current status
 ### Working
@@ -56,9 +57,6 @@ Currently not all functions and components work properly ( especially trackpad )
   - Always on
 - Keyboard Fn hotkeys
   - Only sound hotkeys work
-- macOS Ventura
-  - Stuck at `ACPI: sleep states` even if using OpenCore nightly.
-  - Installer works, but first boot after install fails.
 - Longer battery life
   - Even in dGPU mode, Windows should run for 3 hours but it only runs for around an hour and a half in macOS.
   - In iGPU mode, Windows should run for 10 hours, but iGPU doesn't work in macOS.
