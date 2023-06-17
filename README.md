@@ -15,13 +15,14 @@ Currently not all functions and components work properly ( especially trackpad )
 - dGPU : AMD Radeon RX 6700S 8 GB
   - It is named 6700, but it has same Navi 23 chip as the desktop 6600 series.
   - Must be set primary by MUX switch setting with  Armoury Crate app on Windows.
-- Memory : DDR5-4800MHz 16 GB ( 8 GB onboard + 8 GB SO-DIMM )
+- Memory : DDR5-4800MHz 24 GB ( 8 GB onboard + 16 GB SO-DIMM )
 - WiFi : Intel AX210 WiFi 6 ( replaced from original MediaTek M.2 2230 card )
 
 ### Software
-- macOS Ventura 13.0.1 (22A400)
-- macOS Monterey 12.6.1 (21G217)
-- OpenCore 0.9.1
+- macOS Sonoma 14.0 beta 1 (23A5257q)
+- macOS Ventura 13.4 (22F66)
+- macOS Monterey 12.6.6 (21G646)
+- OpenCore 0.9.3
 
 ## Current status
 ### Working
@@ -39,6 +40,9 @@ Currently not all functions and components work properly ( especially trackpad )
 - Internal speaker
 - Battery status
 - Integrated camera
+- Trackpad
+- Sleep
+  - disable hybrid sleep and enable S3 by using [UMAF](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjh0rGV0sn_AhUdt1YBHa5-BpIQFnoECAkQAQ&url=https%3A%2F%2Fgithub.com%2FDavidS95%2FSmokeless_UMAF&usg=AOvVaw2O06EbRqc__MbbahWlp7-7&opi=89978449)
 
 ### Not working / Problems
 - BIOS version 315 or newer
@@ -46,9 +50,6 @@ Currently not all functions and components work properly ( especially trackpad )
 - Radeon 680 iGPU
   - Probably never works, that's why I bought the laptop with dGPU.
   - Left USB-C DP alt doesn't work because of it's controlled by iGPU.
-- Trackpad
-  - I2C controlled, no idea to enable AMD I2C device.
-- Sleep / Hibernation
 - Hardware video decode / encode acceleration
   - VideoProc says no acceleration at all.
 - Hardware LCD backlight brightness control
@@ -86,6 +87,8 @@ In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is req
   - to get dGPU temperature.
 - RestrictEvents.kext / SMCRadeonGPU.kext
   - to change CPU name on About This Mac.
+- VoodooI2C.kext / VoodooGPIO.kext
+  - build from https://github.com/NootInc
 
 #### NVRAM
 - `boot-args`
