@@ -21,8 +21,8 @@ Currently not all functions and components work properly ( especially trackpad )
 ### Software
 - macOS Sonoma 14.0 beta 1 (23A5257q)
 - macOS Ventura 13.4 (22F66)
-- macOS Monterey 12.6.6 (21G646)
-- OpenCore 0.9.3
+- macOS Monterey 12.6.8 (21G725)
+- OpenCore 0.9.4
 
 ## Current status
 ### Working
@@ -79,26 +79,22 @@ In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is req
   -  must to be set to enable GPU accelaration.
 
 #### Kexts
-- AGPMInjector.kext
-  - to attach `AGPM` to Framebuffer
 - DirectHW.kext
   - required to use `ryzenadj` command. read [this doc](https://gist.github.com/b00t0x/c2b940a4a7a05c7169b54aa0a1be8cd3) for detail.
-- RadeonSensor.kext
+- RadeonSensor.kext / SMCRadeonGPU.kext
   - to get dGPU temperature.
-- RestrictEvents.kext / SMCRadeonGPU.kext
+- RestrictEvents.kext
   - to change CPU name on About This Mac.
 - VoodooI2C.kext / VoodooGPIO.kext
-  - build from https://github.com/NootInc
+  - build from latest master
 
 #### NVRAM
 - `boot-args`
   - `debug=0x44` : to enable DirectHW.kext
 - `ExposeSensitiveData` : `15`
   - to show machine name in AMD Power Gadget.
-
-#### boot-args
-- `csr-active-config` : `FF0F0000`
-  - due to replacing IOPCIFamily.kext, SIP must be disabled.
+- `csr-active-config` : `01000000`
+  - to load DirectHW.kext
 
 #### PlatformInfo
 `MacPro7,1` smbios is required to enable internal display. ( `iMacPro1,1` doesn't work ) I don't know why.
