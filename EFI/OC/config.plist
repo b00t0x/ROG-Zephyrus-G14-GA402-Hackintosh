@@ -157,7 +157,7 @@
                     <key>model</key>
                     <string>AMD Radeon RX 6700S</string>
                     <key>no-gfx-spoof</key>
-                    <string>1</string>
+                    <integer>1</integer>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x0)</key>
                 <dict>
