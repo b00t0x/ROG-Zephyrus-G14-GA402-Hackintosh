@@ -3,7 +3,7 @@ Hackintosh for ASUS ROG Zephyrus G14 (GA402) 2022.
 
 <img width="1813" alt="Screen Shot 2022-07-02 at 15 50 09" src="https://user-images.githubusercontent.com/2325377/176993855-832f4ff0-b2c8-41f3-88fc-7c35c2f7bd3b.png">
 
-Currently not all functions and components work properly ( especially trackpad ), but many important components like CPU and GPU working.
+Currently not all functions and components work properly, but many important components like CPU and GPU working.
 
 ## Specifications
 ### Hardware
