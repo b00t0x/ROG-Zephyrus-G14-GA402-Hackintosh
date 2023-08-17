@@ -345,7 +345,7 @@
                     <key>BundlePath</key>
                     <string>RadeonSensor.kext</string>
                     <key>Comment</key>
-                    <string>V0.3.3</string>
+                    <string>V1.1.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -399,7 +399,7 @@
                     <key>BundlePath</key>
                     <string>SMCRadeonGPU.kext</string>
                     <key>Comment</key>
-                    <string>V0.3.3</string>
+                    <string>V1.1.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
