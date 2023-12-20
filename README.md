@@ -46,7 +46,7 @@ Currently not all functions and components work properly, but many important com
 
 ### Not working / Problems
 - BIOS version 315 or newer
-  - The system became very unstable after updating to BIOS 315, I have to stay on BIOS 312.
+  - The system became very unstable after updating to BIOS 315, I have to stay on BIOS 312. **Warning**: If you're on 317+, **DO NOT** attempt to flash 312, you risk irreversibly bricking your device.
 - Radeon 680 iGPU
   - Probably never works, that's why I bought the laptop with dGPU.
   - Left USB-C DP alt doesn't work because of it's controlled by iGPU.
