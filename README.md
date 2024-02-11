@@ -27,6 +27,7 @@ Currently not all functions and components work properly, but many important com
 - macOS Ventura
 - macOS Monterey
 - OpenCore 0.9.8
+- [BIOS 312](https://web.archive.org/web/20220928185508/https://rog.asus.com/laptops/rog-zephyrus/rog-zephyrus-g14-2022-series/helpdesk_bios/)
 
 ## Current status
 ### Working
@@ -47,6 +48,7 @@ Currently not all functions and components work properly, but many important com
 - Trackpad
 - Sleep
   - disable hybrid sleep and enable S3 by using [UMAF](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjh0rGV0sn_AhUdt1YBHa5-BpIQFnoECAkQAQ&url=https%3A%2F%2Fgithub.com%2FDavidS95%2FSmokeless_UMAF&usg=AOvVaw2O06EbRqc__MbbahWlp7-7&opi=89978449)
+  - another reference : https://github.com/MotorBottle/S3-Sleep-on-Rog-X13-G14-15-2021-2022-using-OpenCore
 
 ### Not working / Problems
 - BIOS version 315 or newer
