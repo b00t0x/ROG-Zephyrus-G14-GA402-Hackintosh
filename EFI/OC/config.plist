@@ -116,6 +116,8 @@
                 <true/>
                 <key>EnableWriteUnprotector</key>
                 <false/>
+                <key>FixupAppleEfiImages</key>
+                <false/>
                 <key>ForceBooterSignature</key>
                 <false/>
                 <key>ForceExitBootServices</key>
@@ -237,7 +239,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.4</string>
+                    <string>V1.8.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -291,7 +293,7 @@
                     <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.2</string>
+                    <string>V1.1.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1644,7 +1646,7 @@
                     <key>Comment</key>
                     <string>OpenCanopy.efi</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -1701,7 +1703,7 @@
                 <key>IgnoreTextInGraphics</key>
                 <false/>
                 <key>InitialMode</key>
-                <string></string>
+                <string>Auto</string>
                 <key>ProvideConsoleGop</key>
                 <true/>
                 <key>ReconnectGraphicsOnConnect</key>
@@ -1789,6 +1791,8 @@
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
                 <key>ResizeUsePciRbIo</key>
+                <false/>
+                <key>ShimRetainProtocol</key>
                 <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
