@@ -67,17 +67,6 @@ Currently not all functions and components work properly, but many important com
 #### DevirtualiseMmio / MmioWhitelist
 In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is required to avoid stuck on `[EB|#LOG:EXITBS:START]`. MmioWhitelist is also required to avoid blackout issue.
 
-#### dGPU DeviceProperties
-
-- `device-id` : `FF730000`
-  - spoofed as RX 6600 series.
-- `no-gfx-spoof` : `True`
-  - required to use WhateverGreen.kext without blackout issue.
-- `agdpmod` : `pikera`
-  - required to use WhateverGreen.kext without blackout issue.
-- `@0,name` : `ATY,Henbury`
-  -  must to be set to enable GPU accelaration.
-
 #### Kexts
 - DirectHW.kext
   - required to use `ryzenadj` command. read [this doc](https://gist.github.com/b00t0x/c2b940a4a7a05c7169b54aa0a1be8cd3) for detail.
