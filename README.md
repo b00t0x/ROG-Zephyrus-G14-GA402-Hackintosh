@@ -5,6 +5,10 @@ Hackintosh for ASUS ROG Zephyrus G14 (GA402) 2022.
 
 Currently not all functions and components work properly, but many important components like CPU and GPU working.
 
+## Requirements
+- Download latest [NootRX.kext](https://github.com/ChefKissInc/NootRX) from [here](https://github.com/ChefKissInc/NootRX/actions/workflows/main.yml)
+- Set your own `MLB` / `ROM` / `SystemSerialNumber` / `SystemUUID` to config.plist
+
 ## Specifications
 ### Hardware
 - Model : GA402RJ
@@ -19,10 +23,10 @@ Currently not all functions and components work properly, but many important com
 - WiFi : Intel AX210 WiFi 6 ( replaced from original MediaTek M.2 2230 card )
 
 ### Software
-- macOS Sonoma 14.0 beta 1 (23A5257q)
-- macOS Ventura 13.4 (22F66)
-- macOS Monterey 12.6.8 (21G725)
-- OpenCore 0.9.4
+- macOS Sonoma
+- macOS Ventura
+- macOS Monterey
+- OpenCore 0.9.8
 
 ## Current status
 ### Working
@@ -68,6 +72,8 @@ Currently not all functions and components work properly, but many important com
 In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is required to avoid stuck on `[EB|#LOG:EXITBS:START]`. MmioWhitelist is also required to avoid blackout issue.
 
 #### Kexts
+- NootRX.kext
+  - to get RX 6700S working.
 - RadeonSensor.kext / SMCRadeonGPU.kext
   - to get dGPU temperature.
 - RestrictEvents.kext
@@ -83,5 +89,3 @@ In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is req
 
 #### PlatformInfo
 `MacPro7,1` smbios is required to enable internal display. ( `iMacPro1,1` doesn't work ) I don't know why.
-
-You should set your own `MLB` / `ROM` / `SystemSerialNumber` / `SystemUUID` .
