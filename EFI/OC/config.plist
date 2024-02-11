@@ -440,24 +440,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>DirectHW.kext</string>
-                    <key>Comment</key>
-                    <string>V1.4</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/DirectHW</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>AirportItlwm-12.kext</string>
                     <key>Comment</key>
                     <string>V2.3.0 | for Monterey</string>
@@ -1486,7 +1468,7 @@
                     <key>boot-args</key>
                     <string>debug=0x44</string>
                     <key>csr-active-config</key>
-                    <data>AQAAAA==</data>
+                    <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
                     <data></data>
                     <key>run-efi-updater</key>

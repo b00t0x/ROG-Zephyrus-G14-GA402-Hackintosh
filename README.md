@@ -68,8 +68,6 @@ Currently not all functions and components work properly, but many important com
 In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is required to avoid stuck on `[EB|#LOG:EXITBS:START]`. MmioWhitelist is also required to avoid blackout issue.
 
 #### Kexts
-- DirectHW.kext
-  - required to use `ryzenadj` command. read [this doc](https://gist.github.com/b00t0x/c2b940a4a7a05c7169b54aa0a1be8cd3) for detail.
 - RadeonSensor.kext / SMCRadeonGPU.kext
   - to get dGPU temperature.
 - RestrictEvents.kext
@@ -79,11 +77,9 @@ In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is req
 
 #### NVRAM
 - `boot-args`
-  - `debug=0x44` : to enable DirectHW.kext
+  - `debug=0x44` : to use ryzenadj
 - `ExposeSensitiveData` : `15`
   - to show machine name in AMD Power Gadget.
-- `csr-active-config` : `01000000`
-  - to load DirectHW.kext
 
 #### PlatformInfo
 `MacPro7,1` smbios is required to enable internal display. ( `iMacPro1,1` doesn't work ) I don't know why.
