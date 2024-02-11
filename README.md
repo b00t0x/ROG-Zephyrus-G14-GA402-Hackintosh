@@ -86,6 +86,3 @@ In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is req
   - `debug=0x44` : to use ryzenadj
 - `ExposeSensitiveData` : `15`
   - to show machine name in AMD Power Gadget.
-
-#### PlatformInfo
-`MacPro7,1` smbios is required to enable internal display. ( `iMacPro1,1` doesn't work ) I don't know why.
