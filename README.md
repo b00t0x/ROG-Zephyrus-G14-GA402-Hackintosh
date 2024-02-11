@@ -31,7 +31,7 @@ Currently not all functions and components work properly, but many important com
 ## Current status
 ### Working
 - CPU with 8 cores and 16 threads enabled
-  - CPU power management with [AMD Power Gadget](https://github.com/trulyspinach/SMCAMDProcessor) and [RyzenAdj](https://gist.github.com/b00t0x/c2b940a4a7a05c7169b54aa0a1be8cd3)
+  - CPU power management with [AMD Power Gadget](https://github.com/trulyspinach/SMCAMDProcessor) and [RyzenAdj](https://gist.github.com/newperson1746/00cccb51aa2fe5e31e8e2f577bec3a88)
   - `ryzenadj` command is [attached](ryzenadj) to this repo.
 - dGPU acceleration
   - 120Hz LCD
