@@ -86,3 +86,5 @@ In spite of the laptop doesn't have TRX40 chipset, DevirtualiseMmio quirk is req
   - `debug=0x44` : to use ryzenadj
 - `ExposeSensitiveData` : `15`
   - to show machine name in AMD Power Gadget.
+- csr-active-config : `01000000`
+  - to use ryzenadj
