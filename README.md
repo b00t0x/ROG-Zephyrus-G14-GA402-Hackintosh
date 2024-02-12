@@ -18,7 +18,7 @@ Currently not all functions and components work properly, but many important com
   - no way to make it work
 - dGPU : AMD Radeon RX 6700S 8 GB
   - It is named 6700, but it has same Navi 23 chip as the desktop 6600 series.
-  - Must be set primary by MUX switch setting with  Armoury Crate app on Windows.
+  - Must be set primary by MUX switch setting ("Ultimate" mode) with Armoury Crate app on Windows.
 - Memory : DDR5-4800MHz 24 GB ( 8 GB onboard + 16 GB SO-DIMM )
 - WiFi : Intel AX210 WiFi 6 ( replaced from original MediaTek M.2 2230 card )
 
