@@ -56,8 +56,6 @@ Currently not all functions and components work properly, but many important com
 - Radeon 680 iGPU
   - Probably never works, that's why I bought the laptop with dGPU.
   - Left USB-C DP alt doesn't work because of it's controlled by iGPU.
-- Hardware video decode / encode acceleration
-  - VideoProc says no acceleration at all.
 - Hardware LCD backlight brightness control
   - Only software control available with [MonitorControlLite](https://github.com/MonitorControl/MonitorControlLite).
 - Keyboard backlight brightness control
