@@ -1,5 +1,9 @@
-# ROG Zephyrus G14 (GA402) Hackintosh [WIP]
+# ROG Zephyrus G14 (GA402) Hackintosh [Archived]
 Hackintosh for ASUS ROG Zephyrus G14 (GA402) 2022.
+
+### ** 2024-02-1x : IMPORTANT NOTICE **
+I no longer own a G14 so this repository will not be updated. I have updated the repo to be as up to date as possible at this time.  
+I'll be happy if someone fork this repo and take my work over.
 
 <img width="1813" alt="Screen Shot 2022-07-02 at 15 50 09" src="https://user-images.githubusercontent.com/2325377/176993855-832f4ff0-b2c8-41f3-88fc-7c35c2f7bd3b.png">
 
